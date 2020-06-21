@@ -14,4 +14,5 @@ end
 #move method
 def move(board, index, character="X")
   board[input_to_index] = character
+  return display_board(board)
 end
